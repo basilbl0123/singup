@@ -1,0 +1,22 @@
+* implement the signup page as described in the screenshots.
+
+* logic for the "Sign up" button click event is as follows:
+	1. all fields are validated. if all are valid then show an alert with the values of the fields.
+	2. otherwise, an error message in red color is shown under the field (please leave enough space between the fields).
+	3. if the button is clicked again after an invalid field has been corrected, the error message for that field should go away.
+
+* validation rules for the fields and the error message for each case:
+	1. name:
+		* must not be empty. message: Your name must not be empty
+		* must be exactly two parts (i.e. first name and last name). message: Your name must contain a first name and a last name
+	
+	2. email:
+		* must not be empty. message: Your email must not be empty
+		* must be valid email (i.e. must contain exactly one "@" and at least one dot "." after it, string before and after [@, .] must not be empty, hint: use split function). message: This is not a valid email address
+
+	3. password:
+		* must not be empty. message: Password must not be empty
+		* must be at least 8 characters long. message: Password must contain at least 8 characters
+		* must contain at least one number. message: Password must contain at least one number.
+		* must contain at leas one of the following: [!, @, #, $, %, &, *].  
+

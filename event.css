@@ -1,0 +1,134 @@
+.countienr{
+	margin-top: 600px;
+	display: flex;
+	
+
+}
+.logo{
+	-webkit-user-select: none;
+	margin: auto;	
+
+}
+.pragragh{
+	font-family: Roboto;
+
+}
+.informition{
+    margin-top: 19px;
+}
+.signUp{
+	margin-top: 30px;
+
+}
+
+.footer{
+	font-size: 15px;
+
+}
+.border{
+	width: 100px;
+	border: dotted;
+	border-width: 0.5px;
+}
+
+#p{
+	font-family: Roboto;
+	font-size: 10px;
+}
+#ways{
+	font-family: Roboto;
+		font: small-caps;
+	    font-size: 10px;
+}
+
+
+#email{
+  	font-family: Roboto;
+     margin-bottom: 10px;
+     border: none;
+    
+}
+
+#psw{
+	
+	font-family: Roboto;
+  margin-bottom: 10px;
+     border: none;
+}
+.bor{
+	 margin-top: 10px;
+     border: none;
+    border-bottom: 2px solid whitesmoke;
+}
+
+#name{
+	font-family: Roboto;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     border: none;
+    
+   
+}
+
+.group 			  { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  outline:none;
+  color: black;
+  
+}
+
+
+#button{
+  background-color: blue;
+  width: 302px;
+  border: 0;
+  padding: 10px 0;
+  margin: 5px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:rgb(62, 78, 141); 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+#rem{
+  font-family: Robot;
+    font-size: 5px;
+}
+
+#nameError , #pswError , #emailError{
+  font-size: 2px;
+  font-family: Ropoto;
+  width: 200px;
+  color: red;
+
+}
+
